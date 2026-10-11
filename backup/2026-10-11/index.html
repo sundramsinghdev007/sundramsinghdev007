@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sundram Singh – Senior Android Developer</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    line-height: 1.55;
+    color: #1a1a1a;
+    background: #fff;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 36px 44px;
+  }
+
+  /* ── Header ── */
+  .header { text-align: center; padding-bottom: 14px; border-bottom: 2px solid #1a1a1a; margin-bottom: 16px; }
+  .header h1 { font-size: 26pt; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+  .header-subtitle { font-size: 11pt; font-weight: 400; letter-spacing: 5px; text-transform: uppercase; color: #555; margin-top: 3px; }
+  .contact-row {
+    display: flex; justify-content: center; flex-wrap: wrap;
+    gap: 6px 18px; margin-top: 10px; font-size: 9pt; color: #444;
+  }
+  .contact-row a { color: #444; text-decoration: none; }
+  .contact-row span { display: flex; align-items: center; gap: 4px; }
+
+  /* ── Section ── */
+  .section { margin-bottom: 15px; }
+  .section-title {
+    font-size: 9.5pt; font-weight: 700; letter-spacing: 3px;
+    text-transform: uppercase; border-bottom: 1.5px solid #1a1a1a;
+    padding-bottom: 3px; margin-bottom: 9px;
+  }
+
+  /* ── Summary ── */
+  .summary p { font-size: 9.5pt; color: #333; }
+
+  /* ── Skills ── */
+  .skills-list { font-size: 9.5pt; }
+  .skills-list p { margin-bottom: 3px; color: #333; }
+  .skills-list strong { color: #222; }
+
+  /* ── Experience ── */
+  .job { margin-bottom: 13px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .company { font-size: 10.5pt; font-weight: 700; }
+  .date { font-size: 9pt; color: #555; white-space: nowrap; margin-left: 8px; }
+  .role { font-size: 9.5pt; font-weight: 600; color: #333; margin-top: 1px; }
+  .job ul { margin-top: 5px; padding-left: 17px; }
+  .job ul li { font-size: 9.5pt; color: #333; margin-bottom: 3px; }
+
+  /* ── Projects ── */
+  .project { margin-bottom: 10px; }
+  .project-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .project-name { font-weight: 700; font-size: 10pt; }
+  .project-name a { color: #1a1a1a; text-decoration: none; border-bottom: 1px solid #aaa; }
+  .project-name a:hover { border-bottom-color: #1a1a1a; }
+  .project-badge { font-size: 9pt; color: #555; font-style: italic; margin-left: 8px; }
+  .project-tech { font-size: 9pt; color: #555; margin-top: 2px; }
+  .project-desc { font-size: 9.5pt; color: #333; margin-top: 3px; }
+
+  /* ── Education ── */
+  .edu-item { display: flex; justify-content: space-between; align-items: baseline; }
+  .edu-degree { font-weight: 700; font-size: 10pt; }
+  .edu-school { font-size: 9.5pt; color: #444; margin-top: 1px; }
+  .edu-year { font-size: 9pt; color: #555; white-space: nowrap; margin-left: 8px; }
+
+  /* ── Print ── */
+  @media print {
+    body { padding: 20px 28px; background: white; }
+    a { color: #1a1a1a; text-decoration: none; }
+    .job, .project { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>Sundram Singh</h1>
+  <p class="header-subtitle">Senior Android Developer</p>
+  <div class="contact-row">
+    <span>+91-7905051560</span>
+    <span>annusingh12333@gmail.com</span>
+    <span>Lucknow, UP, India</span>
+    <span><a href="https://www.linkedin.com/in/sundram-singh-2abb4a158/">linkedin.com/in/sundram-singh-2abb4a158</a></span>
+    <span><a href="https://github.com/sundramsinghdev007">github.com/sundramsinghdev007</a></span>
+  </div>
+</div>
+
+<!-- SUMMARY -->
+<div class="section summary">
+  <div class="section-title">Summary</div>
+  <p>
+    Senior Android Developer with 6+ years of experience designing, building, and delivering high-performance,
+    scalable, and maintainable native Android applications in Kotlin and Java. Proven track record of leading
+    feature initiatives, driving architectural decisions using MVVM-Clean and clean architecture principles,
+    and championing code quality through peer code reviews and thorough testing with JUnit and Espresso.
+    Experienced in Agile and Scrum environments — active in sprint planning, retrospectives, and cross-functional
+    collaboration with product, design, QA, and engineering teams. Delivered eCommerce solutions for 70+ clients
+    on Shopify and Magento platforms, including real-time apps with 1M+ downloads. Proficient in REST API and
+    GraphQL integrations, Firebase, Android Jetpack, Hilt dependency injection, Coroutines, and third-party SDK
+    onboarding.
+  </p>
+</div>
+
+<!-- TECHNICAL SKILLS -->
+<div class="section">
+  <div class="section-title">Technical Skills</div>
+  <div class="skills-list">
+    <p><strong>Languages:</strong> Kotlin (3+ years), Java (4+ years), JavaScript</p>
+    <p><strong>Architecture:</strong> MVVM, MVVM-Clean, Clean Architecture, MVC</p>
+    <p><strong>Android Jetpack:</strong> ViewModel, LiveData, Room, WorkManager, Data Binding, ViewBinding, RecyclerView, ViewPager2, Fragment, ExoPlayer (Media3)</p>
+    <p><strong>UI Development:</strong> XML Layouts, Material Design, ConstraintLayout, ViewBinding, Data Binding</p>
+    <p><strong>Dependency Injection:</strong> Hilt, Dagger 2, Koin</p>
+    <p><strong>Networking:</strong> Retrofit 2, REST API, GraphQL, Volley, OkHttp</p>
+    <p><strong>Testing:</strong> JUnit, Espresso, Unit Testing, Instrumentation Testing</p>
+    <p><strong>Firebase:</strong> Analytics, Cloud Messaging, Push Notifications, Crashlytics</p>
+    <p><strong>Tools &amp; Build:</strong> Android Studio, Gradle, GitHub Actions (CI/CD), Git, GitHub, Bitbucket</p>
+    <p><strong>AI Tools:</strong> Claude Code, GitHub Copilot, ChatGPT, Google Gemini, Cursor (AI-assisted development)</p>
+    <p><strong>Methodologies:</strong> Agile, Scrum, Sprint Planning, Code Review, Technical Documentation</p>
+    <p><strong>Other:</strong> Shopify Mobile Buy SDK, Algolia SDK, Glide, Coroutines, JSON</p>
+  </div>
+</div>
+
+<!-- WORK EXPERIENCE -->
+<div class="section">
+  <div class="section-title">Work Experience</div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="company">CEDCOSS Technologies Private Limited</span>
+      <span class="date">Aug 2021 – Present</span>
+    </div>
+    <div class="role">Senior Android Developer</div>
+    <ul>
+      <li>Led design and development of 70+ high-performance native Android eCommerce apps across Shopify and Magento platforms using Kotlin, Java, MVVM-Clean architecture, and clean architecture principles.</li>
+      <li>Drove architectural decisions for scalable, maintainable, and secure Android applications — defining feature implementation plans and communicating them to cross-functional teams.</li>
+      <li>Conducted peer code reviews, enforced coding standards, and championed clean, extensible, and testable code practices across the engineering team.</li>
+      <li>Actively participated in Agile/Scrum ceremonies including sprint planning, retrospectives, and daily stand-ups; provided high-level estimates at project inception and ensured tasks were delivered within sprint timelines.</li>
+      <li>Integrated Shopify Mobile Buy SDK via GraphQL — implemented Cursor Pagination, Shopify Filters, and Subscription products using ViewModel, LiveData, and Coroutines.</li>
+      <li>Built dynamic homepage configuration system using MVVM-Clean and Hilt dependency injection, enabling no-code UI customisation for 20+ Shopify clients.</li>
+      <li>Integrated payment gateways (PayTm, CCAvenue, RazorPay, Tamara, Tabb) and third-party SDKs (Algolia, Weglot, Flits, Judge.me) across 50+ Magento client apps.</li>
+      <li>Implemented social login (Facebook, Google), Firebase Analytics, Facebook Pixel events, and Firebase Cloud Messaging push notifications.</li>
+      <li>Created and maintained accurate technical documentation for features, APIs, and integration patterns used by the team.</li>
+      <li>Identified opportunities for automation using GitHub Actions CI/CD pipelines to streamline build, test, and deployment workflows across client projects.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="company">QBEAK EDU-Solutions Pvt Limited</span>
+      <span class="date">Sep 2020 – Jul 2021</span>
+    </div>
+    <div class="role">Android Developer</div>
+    <ul>
+      <li>Developed and maintained Android modules for a real-time edu-tech platform using Kotlin, ViewModel, LiveData, and RecyclerView with XML-based UI layouts.</li>
+      <li>Wrote unit tests using JUnit and instrumentation tests using Espresso to ensure feature correctness and high test coverage.</li>
+      <li>Integrated Firebase Cloud Messaging for real-time push notifications and Firebase Analytics for user engagement tracking.</li>
+      <li>Collaborated with Spring Boot backend team in an Agile environment to design and consume REST APIs using Retrofit and Volley.</li>
+      <li>Contributed to microservices development with JDBC and Hibernate backend integrations.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="company">Uwonder</span>
+      <span class="date">Feb 2020 – Jul 2020</span>
+    </div>
+    <div class="role">Android Developer</div>
+    <ul>
+      <li>Built Android application features using Volley for networking, Glide for image loading, and XML layouts with ViewBinding for efficient view management.</li>
+      <li>Implemented Firebase push notifications and real-time event tracking to improve user engagement metrics.</li>
+      <li>Supported backend team on microservices using Spring Boot, JDBC, and Hibernate to maintain mobile-facing REST APIs.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="company">Pacex-e-System Pvt Ltd</span>
+      <span class="date">Sep 2019 – Jan 2020</span>
+    </div>
+    <div class="role">Technical Consultant</div>
+    <ul>
+      <li>Evaluated and prototyped mobile solutions using Cordova, Java, Python, and native Android to support client technology recommendations.</li>
+      <li>Assessed Android Jetpack components and REST API integration patterns for client project feasibility reports.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- PROJECTS -->
+<div class="section">
+  <div class="section-title">Projects</div>
+
+  <div class="project">
+    <div class="project-header">
+      <span class="project-name"><a href="https://play.google.com/store/apps/details?id=com.homerun.app&hl=en_IN">HomeRun – Materials in 60 mins</a></span>
+      <span class="project-badge">100K+ Downloads &nbsp;·&nbsp; 4.5-Star Rating &nbsp;·&nbsp; Google Play</span>
+    </div>
+    <div class="project-tech"><strong>Tech:</strong> Kotlin, Java, MVVM, Android Jetpack, Retrofit 2, Firebase Crashlytics, Material Design, XML</div>
+    <div class="project-desc">
+      High-performance on-demand construction materials delivery app (Bangalore) with real-time order tracking,
+      60-minute delivery promise, and a catalogue spanning cement, tiles, paint, plumbing, and electrical supplies.
+    </div>
+    <ul style="margin-top:5px; padding-left:17px;">
+      <li style="font-size:9.5pt; color:#333; margin-bottom:3px;">Reduced app launch time from <strong>7s to 1.5s</strong> (78% improvement) through startup optimisation and lazy loading.</li>
+      <li style="font-size:9.5pt; color:#333; margin-bottom:3px;">Improved app stability from <strong>70% to 99.85%</strong> by identifying and resolving crash sources via Firebase Crashlytics.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <span class="project-name"><a href="https://play.google.com/store/apps/details?id=com.magenative.app&hl=en_IN">MageNative – Shopify &amp; Magento Platform</a></span>
+      <span class="project-badge">70+ Clients &nbsp;·&nbsp; eCommerce</span>
+    </div>
+    <div class="project-tech"><strong>Tech:</strong> Kotlin, Java, MVVM-Clean, Android Jetpack, Hilt, Retrofit 2, GraphQL, Shopify Mobile Buy SDK, Algolia SDK, REST API, XML</div>
+    <div class="project-desc">
+      Led architecture and delivery of a white-label Android eCommerce platform serving 70+ global clients.
+      Shopify: dynamic homepage, Shopify Filters, Cursor Pagination, Subscription products, social login.
+      Magento: Algolia search, dynamic homepage, rental and bulk-quote add-ons, multi-gateway payment integrations.
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <span class="project-name"><a href="https://play.google.com/store/apps/details?id=com.pronted360&hl=en_IN">Pronted 360</a></span>
+      <span class="project-badge">1,200+ Downloads &nbsp;·&nbsp; 4.9-Star Rating &nbsp;·&nbsp; Google Play</span>
+    </div>
+    <div class="project-tech"><strong>Tech:</strong> Kotlin, Android Jetpack, Firebase, REST API, Material Design, XML</div>
+    <div class="project-desc">
+      Institution management platform streamlining operations and parent engagement for educational institutions.
+      Achieved the highest Play Store rating (4.9 stars) in the portfolio.
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <span class="project-name">HBO – Health By Organics</span>
+      <span class="project-badge">1M+ Downloads &nbsp;·&nbsp; 4.6-Star Rating</span>
+    </div>
+    <div class="project-tech"><strong>Tech:</strong> Kotlin, MVVM, Android Jetpack, Retrofit 2, Firebase, Material Design, XML</div>
+    <div class="project-desc">
+      Organic products marketplace connecting users with certified organic vendors. One of the highest-download
+      apps in the health &amp; organic niche on the Play Store, sustaining a 4.6-star rating at scale.
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <span class="project-name">Alsheta &amp; Alsaif</span>
+      <span class="project-badge">10K+ Downloads &nbsp;·&nbsp; Google Play</span>
+    </div>
+    <div class="project-tech"><strong>Tech:</strong> Kotlin, Android Jetpack, Algolia SDK, Tabby, Tamara, PayFort, XML</div>
+    <div class="project-desc">
+      Fully customised eCommerce app with advanced payment gateways (Tabby, Tamara, PayFort) and Algolia
+      search for a seamless purchase journey.
+    </div>
+  </div>
+
+</div>
+
+<!-- EDUCATION -->
+<div class="section">
+  <div class="section-title">Education</div>
+  <div class="edu-item">
+    <div>
+      <div class="edu-degree">Bachelor of Technology (B.Tech)</div>
+      <div class="edu-school">Bansal Institute of Engineering and Technology, Lucknow</div>
+    </div>
+    <div class="edu-year">2019 &nbsp;·&nbsp; 73.42%</div>
+  </div>
+</div>
+
+</body>
+</html>
