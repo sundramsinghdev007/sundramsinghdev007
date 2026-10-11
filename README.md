@@ -86,19 +86,6 @@ scalable native Android apps in **Kotlin** and **Java**.
   </picture>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sundramsinghdev007&theme=onedark&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="GitHub trophies" />
-</p>
-
-### 📈 Contribution Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=sundramsinghdev007&theme=react-dark&hide_border=true&area=true&color=3DDC84&line=3DDC84&point=ffffff" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=sundramsinghdev007&theme=minimal&hide_border=true&area=true&color=073042&line=3DDC84&point=073042" alt="Contribution activity graph" width="100%" />
-  </picture>
-</p>
-
 ### 🐍 Contribution Snake
 
 <!-- Regenerated daily by .github/workflows/profile-cards.yml -->
