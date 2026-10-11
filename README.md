@@ -1,13 +1,14 @@
   ## Hi, I'm Sundram Singh 👋                                                                                                                                                                                                                
                                                                                                                                                                                                                                              
-  Senior Android Developer with 7+ years of experience building high-performance,                                                                                                                                                            
+  Senior Android Developer & Team Lead with 7+ years of experience building high-performance,                                                                                                                                                            
   scalable native Android apps in **Kotlin** and **Java**.                                                                                                                                                                                   
                                                                                                                                                                                                                                              
+  - 👥 Leading a team of 5+ Android developers rebuilding the **MageNative** app with **Jetpack Compose** & **Kotlin Flow**
   - 🏗️  Architecture: MVVM-Clean, Clean Architecture, Hilt DI, Android Jetpack
   - 🛒 Delivered **70+ eCommerce apps** (Shopify & Magento) for global clients
   - 📈 Shipped apps with **1M+ downloads** and Play Store ratings up to **4.9 stars**                                                                                                                                                                       
   - 🔗 Expertise: GraphQL, Retrofit, Firebase, Coroutines, Algolia SDK
-  - 🤖 AI-assisted dev: Claude Code, GitHub Copilot, Cursor                                                                                                                                                                                  
+  - 🤖 AI-assisted dev: Claude Code, Claude, ChatGPT, Gemini, GitHub Copilot, Cursor                                                                                                                                                                                  
   - 📍 Lucknow, India                                       
                                                                                                                                                                                                                                              
   ---                                                       
@@ -18,7 +19,7 @@
   |------|-------|
   | **Languages** | Kotlin, Java, JavaScript |
   | **Architecture** | MVVM, MVVM-Clean, Clean Architecture |                                                                                                                                                                                
-  | **Jetpack** | ViewModel, LiveData, Room, WorkManager, ViewBinding |
+  | **Jetpack** | Compose, ViewModel, LiveData, Room, WorkManager, ViewBinding |
   | **DI** | Hilt, Dagger 2, Koin |                                                                                                                                                                                                          
   | **Networking** | Retrofit 2, GraphQL, OkHttp, Volley |  
   | **Firebase** | Analytics, FCM, Crashlytics |                                                                                                                                                                                             
