@@ -1,0 +1,14 @@
+name: Check README images (temporary)
+on:
+  push:
+    paths: [README.md, .github/workflows/check-images.yml]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          grep -oE '(src|srcset)="https://[^"]+"' README.md | sed -E 's/^(src|srcset)="//; s/"$//' | sed 's/&amp;/\&/g' | sort -u | while read -r u; do
+            r=$(curl -sS -L -o /tmp/body -w '%{http_code} %{content_type}' --max-time 30 "$u" 2>&1)
+            echo "RESULT $r | $(head -c 150 /tmp/body | tr '\n' ' ' | grep -oiE 'error|invalid|went wrong|rate limit|not found' | head -1) | $u"
+          done
