@@ -1,11 +1,11 @@
   ## Hi, I'm Sundram Singh 👋                                                                                                                                                                                                                
                                                                                                                                                                                                                                              
-  Senior Android Developer with 6+ years of experience building high-performance,                                                                                                                                                            
+  Senior Android Developer with 7+ years of experience building high-performance,                                                                                                                                                            
   scalable native Android apps in **Kotlin** and **Java**.                                                                                                                                                                                   
                                                                                                                                                                                                                                              
   - 🏗️  Architecture: MVVM-Clean, Clean Architecture, Hilt DI, Android Jetpack
   - 🛒 Delivered **70+ eCommerce apps** (Shopify & Magento) for global clients
-  - 📈 Apps with **1M+ downloads** and **4.9-star** Play Store ratings                                                                                                                                                                       
+  - 📈 Shipped apps with **1M+ downloads** and Play Store ratings up to **4.9 stars**                                                                                                                                                                       
   - 🔗 Expertise: GraphQL, Retrofit, Firebase, Coroutines, Algolia SDK
   - 🤖 AI-assisted dev: Claude Code, GitHub Copilot, Cursor                                                                                                                                                                                  
   - 📍 Lucknow, India                                       
